@@ -1,7 +1,7 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: quarkus-backend-template
+  name: liberty-backend-template
   title: Create a Liberty application with a CI pipeline
   description: Create a starter Liberty Backend application with a CI pipeline
   tags:
