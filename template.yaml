@@ -3,9 +3,9 @@ kind: Template
 metadata:
   name: quarkus-backend-template
   title: Create a Liberty application with a CI pipeline
-  description: Create a starter Quarkus Backend application with a CI pipeline
+  description: Create a starter Liberty Backend application with a CI pipeline
   tags:
-    - quarkus
+    - liberty
     - java
     - maven
 spec:
@@ -69,7 +69,7 @@ spec:
         artifactId:
           title: Artifact ID
           type: string
-          default: quarkusapp
+          default: libertyapp
           description: Maven Artifact ID
         version: 
           title: Version
@@ -79,8 +79,8 @@ spec:
         javaPackageName:
           title: Java Package Namespace
           type: string
-          default: io.janus.quarkusapp
-          description: Name for the Java Package (e.g. io.janus.quarkusapp) should match Group ID and Artifact ID
+          default: io.janus.libertyapp
+          description: Name for the Java Package (e.g. io.janus.libertyapp) should match Group ID and Artifact ID
     - title: Provide information about the CI method
       required:
         - ci
